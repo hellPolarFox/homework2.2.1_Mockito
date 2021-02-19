@@ -9,7 +9,7 @@ public class GeoServiceImplTest {
 
     @Test
     void testingMethodByIpFromGeoServiceImpl() {
-        GeoService geoService = Mockito.spy(GeoServiceImpl.class);
+        GeoService geoService = new GeoServiceImpl();
 
         Country expected = Country.USA;
 

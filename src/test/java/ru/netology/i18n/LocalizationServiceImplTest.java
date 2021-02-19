@@ -9,7 +9,7 @@ public class LocalizationServiceImplTest {
 
     @Test
     void testingMethodLocaleFromLocalizationServiceImpl() {
-        LocalizationService localizationService = Mockito.spy(LocalizationServiceImpl.class);
+        LocalizationService localizationService = new LocalizationServiceImpl();
 
         String expected = "Welcome";
 
